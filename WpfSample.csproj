@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.SVG" Version="22.9.0" />
+    <PackageReference Include="DevExpress.Data" Version="22.1.5" />
+    <PackageReference Include="IronXL.Excel" Version="2022.9.9454" />
+    <PackageReference Include="LiveCharts.Core" Version="0.9.8" />
+    <PackageReference Include="LiveCharts.NetCore" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.WinForms.NetCore3" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf.Core" Version="0.9.8" />
+    <PackageReference Include="LiveCharts.Wpf.NetCore3" Version="0.9.7" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-beta.501" />
+    <PackageReference Include="Prevu.LiveCharts.Wpf.NetCore3" Version="0.9.9" />
+    <PackageReference Include="ReaCharts.Wpf" Version="1.0.2" />
+    <PackageReference Include="SignalTrading.Core" Version="0.7.1" />
+    <PackageReference Include="Syncfusion.Edit.WPF" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.ExportOlapGrid.Wpf" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.Gantt.WPF" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.Grid.WPF" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.OlapChart.WPF" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.OlapClient.WPF" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.SfImageEditor.WPF" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="20.3.0.50" />
+    <PackageReference Include="ViceCode.LiveCharts.Core" Version="1.2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+</Project>
